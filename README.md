@@ -14,4 +14,4 @@ This project demonstrates a basic data pipeline that ingests, transforms, and an
 - Python 3.10+
 
 ## How the project works
-I used Pandas to process data about users, documents, and events. First, I cleaned and transformed the data to ensure accuracy and consistency. Then, I saved everything into a SQLite database, which is lightweight and easy to use without needing extra software setup. The database contains three main tables: users, documents, and events. These tables are linked through primary keys, allowing me to run queries that connect users with documents and their actions.
+I used pandas to process data about users, documents, and events. First, I cleaned and transformed the data to ensure accuracy and consistency. Then, I saved everything into a SQLite database, which is lightweight and easy to use without needing extra software setup. The database contains three main tables: users, documents, and events. These tables are linked through primary keys, allowing me to run queries that connect users with documents and their actions.
